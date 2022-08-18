@@ -1,0 +1,25 @@
+/* Webfont: Calming-Regular */
+@font-face {
+  font-family: "Calming";
+  src: url("Calming.eot"); /* IE9 Compat Modes */
+  src: url("Calming.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Calming.woff") format("woff"),
+    /* Modern Browsers */ url("Calming.woff2") format("woff2"),
+    /* Modern Browsers */ url("Calming.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+
+/* Webfont: Calming-Regular */
+@font-face {
+  font-family: "Calming";
+  src: url("Calming.eot"); /* IE9 Compat Modes */
+  src: url("Calming.eot?#iefix") format("embedded-opentype"),
+    /* IE6-IE8 */ url("Calming.woff") format("woff"),
+    /* Modern Browsers */ url("Calming.woff2") format("woff2"),
+    /* Modern Browsers */ url("Calming.ttf") format("truetype"); /* Safari, Android, iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}

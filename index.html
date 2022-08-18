@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Spotify Album Cover with GSAP | Rhmtin</title>
+  <meta name="description" content="A draggable menu that shows a thumbnail preview of an image grid" />
+  <meta name="keywords" content="draggable, menu, navigation, thumbnails, grid, javascript, gsap, web design, layout" />
+  <meta name="author" content="Rhmtin" />
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="stylesheet" type="text/css" media="screen" href="./css/fonts/Calming.css" />
+  <link rel="stylesheet" type="text/css" href="css/base.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+  <script>document.documentElement.className = "js"; var supportsCssVars = function () { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e }; supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");</script>
+</head>
+
+<body class="loading">
+  <main>
+    <div class="frame">
+      <div class="frame__pagetitle">Spotify Album Cover with GSAP</div>
+      <div class="frame__title-wrap">
+        <h1 class="frame__title">Rhmtin</h1>
+        <p class="frame__tagline">2022</a></p>
+      </div>
+      <div class="frame__social">
+        <a href="#" aria-label="Link to Github Rahmat Subandi"><img src="img/github.svg" class="frame__social-github"
+            alt="Github Logo" /></a>
+      </div>
+    </div>
+    <div class="page page--preview">
+      <div class="grid-wrap">
+        <div class="grid grid--layout-1">
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/1.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/2.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/3.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/4.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/5.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/6.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/7.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/8.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/9.jpg)"></div>
+          </div>
+        </div>
+        <div class="grid grid--layout-2">
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/10.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/11.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/12.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/13.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/14.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/15.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/16.jpg)"></div>
+          </div>
+          <div class="grid__item-wrap">
+            <div class="grid__item" style="background-image: url(img/17.jpg)"></div>
+          </div>
+        </div>
+        <button class="gridback"><svg width="27px" height="15px" viewBox="0 0 27 15">
+            <path
+              d="M1.469 6.75l-.719.719 7.938 6.937.718-.719L1.47 6.75zM8.594.531L.75 7.375l.688.688L9.28 1.218 8.594.53zM1.406 6.938v1h24.75v-1H1.406z"
+              fill="#de6565" />
+          </svg></button>
+      </div><!-- /grid-wrap -->
+    </div><!-- /page -->
+    <div class="menu-wrap">
+      <div class="menu-draggable"></div>
+      <nav class="menu">
+        <div class="menu__item">
+          <a class="menu__item-link">Nostalgia 90</a>
+          <a class="menu__item-explore">explore album</a>
+        </div>
+        <div class="menu__item">
+          <a class="menu__item-link">Pop Kreatif</a>
+          <a class="menu__item-explore">explore album</a>
+        </div>
+      </nav>
+      <!--menu-->
+    </div>
+    <!--/menu-wrap-->
+  </main>
+  <div class="cursor">
+    <div class="cursor__inner cursor__inner--circle">
+      <div class="cursor__side cursor__side--left"></div>
+      <div class="cursor__side cursor__side--right"></div>
+    </div>
+  </div>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/charming.min.js"></script>
+  <script src="js/TweenMax.min.js"></script>
+  <script src="js/draggabilly.pkgd.min.js"></script>
+  <script src="js/base.js"></script>
+</body>
+
+</html>
